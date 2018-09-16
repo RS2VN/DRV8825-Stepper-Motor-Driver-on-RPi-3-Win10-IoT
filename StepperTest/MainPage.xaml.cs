@@ -12,8 +12,8 @@ namespace StepperTest
         public int stepsVertical { get; set; }
         public int stepsHorizontal { get; set; }
 
-        StepperStep stepperVertical = new StepperStep(20, 21);
-        StepperStep stepperHorizontal = new StepperStep(16, 19, 13);
+        StepperStep stepperVertical = new StepperStep(19, 26);
+        StepperStep stepperHorizontal = new StepperStep(6, 13, 5);
 
         public MainPage()
         {
